@@ -6,3 +6,30 @@
     margin-right: 8px;
     text-size-adjust: none;
 }
+
+#main_header {
+    border-bottom: solid 1px #BABABA;
+    padding-bottom: 24px;
+}
+
+#main_header h1 {
+    margin: 0px;
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 500;
+    color: #3F3F42;
+    font-size: 44px;
+    line-height: 48px;
+    display: block;
+}
+.time_img {
+    height: 13px;
+}
+
+.article_subtitle_signature {
+    margin: none;
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #696969;
+}
