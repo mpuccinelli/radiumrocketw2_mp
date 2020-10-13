@@ -1,0 +1,27 @@
+body {
+    max-width: 800px;
+    text-size-adjust: none;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+#main_header {
+    width: 567.2px;
+    margin: none;
+    padding: 0px 0px 24px;
+}
+#main_header h1{
+    font-size: 44px;
+    line-height: 48px;
+    /* USES A PRIVATE FONT STYLE*/
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 500;
+    color: #3F3F42;
+    display: block;
+    height: 96;
+    margin: none;
+}
