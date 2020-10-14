@@ -52,6 +52,28 @@ body {
     height: 13px;
 }
 
+
 .article_image {
+    display: block;
     margin: 24px 0;
+    color: #EEEEEE;
+    font-size: 14px;
+    position: relative
+}
+
+.figcaption1 {
+    padding: 4px 8px;
+    text-transform: uppercase;
+    width: fit-content;
+    background: #3F3F42;
+    position: absolute;
+    right: 0px;
+    bottom: 60px;
+}
+
+.figcaption2 {
+    padding: 16px;
+    background: #3F3F42;
+    position: relative;
+    bottom: 6.1px;
 }
