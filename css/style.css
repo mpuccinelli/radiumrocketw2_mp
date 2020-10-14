@@ -52,11 +52,6 @@ body {
     height: 13px;
 }
 
-.image.block {
-    margin: 24px 0;
-}
-
 .article_image {
-    position: absolute;
-    left: 135.6px;
+    margin: 24px 0;
 }
