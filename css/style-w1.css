@@ -95,7 +95,7 @@ img {
 }
 
 
-/*
+
 .text_box {
     color: #3F3F42;
     margin: 16px 0;
@@ -108,27 +108,39 @@ img {
 
 .links_list {
     margin: 16px 0;
-    border-top: solid 3px lightgray;
-    border-bottom: solid 3px lightgray;
-    font-weight: bolder;
 }
+
 
 a {
     border-bottom: 1px solid #BABABA;
     color: #3F3F42;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 a:visited {
     color: #696969; /*DUE TO BEING COLORBLIND I AM NOT SURE THIS IS WORKING*/
 }
-/*
+
 a:hover {
     color: red; /* COULDN'T FIND HOVER COLOR CODE IN WEBPAGE*/
 }
-/*
+
 ul {
     list-style-type: disc;
     padding: 0;
     margin: 0 0 0 24px;
+}
+
+
+.in_borders {
+    border-top: solid 3px lightgray;
+    border-bottom: solid 3px lightgray;
+    margin: 16px 0;
+}
+
+.in_borders h2 {
+    padding: 16px 0 0 0;
+    font-size: 32px;
+    line-height: 36px;
 }
