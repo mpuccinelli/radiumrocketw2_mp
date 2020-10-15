@@ -45,8 +45,8 @@ body {
     margin-top: 16px;
     font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
     font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 1.125rem;
+    font-size: 14px;
+    line-height: 18px;
     height: 34px;
     position: relative;
 }
@@ -94,8 +94,6 @@ img {
     bottom: 0px;
 }
 
-
-
 .text_box {
     color: #3F3F42;
     margin: 16px 0;
@@ -139,8 +137,46 @@ ul {
     margin: 16px 0;
 }
 
-.in_borders h2 {
+.in_borders h2{
     padding: 16px 0 0 0;
     font-size: 32px;
     line-height: 36px;
+}
+
+.animated_guide {
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    padding-bottom: 36px;
+    position:  relative;
+}
+
+.animated_guide .text_box{
+    max-width: 800px;
+}
+
+.animated_guide h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 8px;
+    padding-top: 40px;
+}
+
+.animated_guide button {
+    background-color: #343434;
+    color: #fff;
+    border: #fff;
+    height: 32px;
+    width: 32px;
+    
+}
+
+.animated_guide .selector2 {
+    position: absolute;
+    right: 0px;
+}
+
+.animated_guide .selector1 {
+    position: absolute;
+    right: 36px;
 }
