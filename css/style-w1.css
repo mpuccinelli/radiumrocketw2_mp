@@ -65,13 +65,23 @@ body {
     background-color:  red;
 }
 
-/*
+img {
+    max-width: 800px;
+}
+
 .article_image {
     display: block;
     margin: 24px 0;
     color: #EEEEEE;
     font-size: 14px;
+    height: 450px;
+    width: 800px;
     position: relative
+}
+
+.article_image img {
+    height: 450px;
+    width: 800px;
 }
 
 .figcaption1 {
@@ -81,16 +91,11 @@ body {
     background: #3F3F42;
     position: absolute;
     right: 0px;
-    bottom: 60px;
+    bottom: 0px;
 }
 
-.figcaption2 {
-    padding: 16px;
-    background: #3F3F42;
-    position: relative;
-    bottom: 6.1px;
-}
 
+/*
 .text_box {
     color: #3F3F42;
     margin: 16px 0;
