@@ -1,0 +1,129 @@
+body {
+    width: 1248px;
+    margin: 0px 119.6px;
+    border: 0px;
+    padding: 0px 16px;
+}
+
+.news {
+    width: 800px;
+    margin: 16px 0 24px 0;
+    padding-bottom: 24px;
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif; /* USES PRIVATE FONT*/
+    line-height: 22px;
+}
+
+#main_header {
+    margin: 0px;
+    border: 0px;
+    border-bottom: solid 1px #BABABA;
+    padding: 0px 0px 24px;
+
+}
+
+.main_title {
+    margin: 0px;
+    font-size: 44px;
+    line-height: 48px;
+    color: #3F3F42;
+}
+
+.time {
+    font-size: 13px;
+    line-height: 16px;
+    color: #696969;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.time_img {
+    font-weight: 400;
+    height: 13px;
+}
+
+.header_button {
+    margin-top: 16px;
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    height: 34px;
+    position: relative;
+}
+
+.header_button a {
+    color: #3F3F42;
+    border: 1px solid #DB7F7F;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+}
+
+.header_button a:hover {
+    color: white;
+    background-color:  red;
+}
+
+/*
+.article_image {
+    display: block;
+    margin: 24px 0;
+    color: #EEEEEE;
+    font-size: 14px;
+    position: relative
+}
+
+.figcaption1 {
+    padding: 4px 8px;
+    text-transform: uppercase;
+    width: fit-content;
+    background: #3F3F42;
+    position: absolute;
+    right: 0px;
+    bottom: 60px;
+}
+
+.figcaption2 {
+    padding: 16px;
+    background: #3F3F42;
+    position: relative;
+    bottom: 6.1px;
+}
+
+.text_box {
+    color: #3F3F42;
+    margin: 16px 0;
+    max-width: 580px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.links_list {
+    margin: 16px 0;
+    border-top: solid 3px lightgray;
+    border-bottom: solid 3px lightgray;
+    font-weight: bolder;
+}
+
+a {
+    border-bottom: 1px solid #BABABA;
+    color: #3F3F42;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #696969; /*DUE TO BEING COLORBLIND I AM NOT SURE THIS IS WORKING*/
+}
+/*
+a:hover {
+    color: red; /* COULDN'T FIND HOVER COLOR CODE IN WEBPAGE*/
+}
+/*
+ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0 0 0 24px;
+}
